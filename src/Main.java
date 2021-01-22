@@ -29,6 +29,7 @@ public class Main {
 
         }
         */
+        System.out.println("Vehículos ordenados por precio de mayor a menor:");
         for(int i=ListaVehiculos.size()-1; i >= 0; i--){
 
             System.out.println(ListaVehiculos.get(i).getMarca() + " " + ListaVehiculos.get(i).getModelo());
