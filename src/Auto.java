@@ -11,6 +11,9 @@ public class Auto extends Vehiculo{
         this.puertas = puertas;
     }
 
+    public Auto() {
+    }
+
     //Métodos Getters y Setters
     public int getPuertas() {
         return puertas;

@@ -14,6 +14,9 @@ public abstract class Vehiculo implements Comparable<Vehiculo> {
         this.precio = precio;
     }
 
+    public Vehiculo() {
+    }
+
     //Métodos Getters y Setters
     public String getMarca() {
         return marca;
@@ -52,5 +55,14 @@ public abstract class Vehiculo implements Comparable<Vehiculo> {
             return 1;
         }
 
+    }
+
+    @Override
+    public String toString() {
+        return "Vehiculo{" +
+                "marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", precio=" + precio +
+                '}';
     }
 }

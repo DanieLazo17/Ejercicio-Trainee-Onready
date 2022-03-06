@@ -11,6 +11,8 @@ public class Moto extends Vehiculo{
         this.cilindrada = cilindrada;
     }
 
+    public Moto() {
+    }
 
     //Métodos Getters y Setters
 
